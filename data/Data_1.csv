@@ -1,0 +1,398 @@
+﻿NP_ID,mod_type,mod_charge,np_type,np_subtype,size_nm,zp_mv,zp_charge,zp_solvent,hd_solvent,incub_time,agitation,washing_steps
+NP1,No Modification,No Modification,Inorganic,Silica,101,-15,Negative,PBS,PBS,30~60,Y,4~6
+NP2,No Modification,No Modification,Inorganic,Silica,165,-12,Negative,PBS,PBS,30~60,Y,4~6
+NP3,Amines,Positive,Inorganic,Silica,100,-11,Negative,PBS,PBS,30~60,Y,4~6
+NP4,Amines,Positive,Inorganic,Silica,192,-7,Neutral,PBS,PBS,30~60,Y,4~6
+NP5,Carboxylic Acids,Negative,Inorganic,Silica,105,-15,Negative,PBS,PBS,30~60,Y,4~6
+NP6,Carboxylic Acids,Negative,Inorganic,Silica,203,-13,Negative,PBS,PBS,30~60,Y,4~6
+NP7,No Modification,No Modification,Organic,Lipid,193.4,39.9,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP8,No Modification,No Modification,Organic,Lipid,209.9,32.5,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP9,No Modification,No Modification,Organic,Lipid,470.3,31.1,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP10,No Modification,No Modification,Organic,Lipid,254.6,29.7,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP11,No Modification,No Modification,Organic,Lipid,191,-7.6,Neutral,DI-H2O,DI-H2O,30~60,N,1~3
+NP12,Carboxylic Acids,Negative,Inorganic,Silica,94.1,-29.83,Negative,PBS,PBS,30~60,Y,1~3
+NP13,Carboxylic Acids,Negative,Inorganic,Silica,343.9,-17.03,Negative,PBS,PBS,30~60,Y,1~3
+NP14,Carboxylic Acids,Negative,Inorganic,Silica,749.2,-12.79,Negative,PBS,PBS,30~60,Y,1~3
+NP15,No Modification,No Modification,Organic,Niosome,87.5,-22.8089,Negative,HEPES,HEPES,30~60,N,1~3
+NP16,No Modification,No Modification,Organic,Niosome,109.26,-20.337,Negative,HEPES,HEPES,30~60,N,1~3
+NP17,No Modification,No Modification,Organic,Niosome,44.82,-20.224,Negative,HEPES,HEPES,30~60,N,1~3
+NP18,No Modification,No Modification,Organic,Niosome,88.95,-20.337,Negative,HEPES,HEPES,30~60,N,1~3
+NP19,No Modification,No Modification,Organic,Niosome,123.277,-23.82,Negative,HEPES,HEPES,30~60,N,1~3
+NP20,No Modification,No Modification,Organic,Niosome,149.88,-25.95505,Negative,HEPES,HEPES,30~60,N,1~3
+NP21,No Modification,No Modification,Organic,Niosome,90.35,-26.5168,Negative,HEPES,HEPES,30~60,N,1~3
+NP22,No Modification,No Modification,Organic,Niosome,126.77,-26.3774,Negative,HEPES,HEPES,30~60,N,1~3
+NP23,No Modification,No Modification,Inorganic,Silica,47,-40,Negative,DI-H2O,DI-H2O,30~60,Y,1~3
+NP24,No Modification,No Modification,Inorganic,Silica,47,-40,Negative,DI-H2O,DI-H2O,30~60,Y,1~3
+NP25,No Modification,No Modification,Inorganic,Silica,35.8,-40,Negative,DI-H2O,PBS,30~60,Y,1~3
+NP26,No Modification,No Modification,Inorganic,Silica,35.8,-40,Negative,DI-H2O,PBS,30~60,Y,1~3
+NP27,Polymeric,Neutral,Inorganic,Metal Oxide,166,-12.8,Negative,DI-H2O,DI-H2O,30~60,Y,1~3
+NP28,Peptide,Neutral,Inorganic,Metal Oxide,169,-17.3,Negative,DI-H2O,DI-H2O,30~60,Y,1~3
+NP29,No Modification,No Modification,Organic,Lipid,136,-25.6,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP30,No Modification,No Modification,Inorganic,Silica,390,-22.4,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP31,Polymeric,Neutral,Organic,Polystyrene,80.77,2.11,Neutral,PBS,PBS,30~60,Y,1~3
+NP32,Peptide,Positive,Organic,Polystyrene,89.5,16.2,Positive,PBS,PBS,30~60,Y,1~3
+NP33,Amino Acid,Positive,Organic,Polystyrene,83.61,17.1,Positive,PBS,PBS,30~60,Y,1~3
+NP34,Peptide,Negative,Organic,Polystyrene,92.47,1.25,Neutral,PBS,PBS,30~60,Y,1~3
+NP35,Lipid,Neutral,Organic,Lipid,109.2,-24,Negative,DI-H2O,DI-H2O,<30,N,1~3
+NP36,Lipid,Neutral,Organic,Lipid,102.5,-23.9,Negative,DI-H2O,DI-H2O,<30,N,1~3
+NP37,Lipid,Neutral,Organic,Lipid,106,-23.5,Negative,DI-H2O,DI-H2O,<30,N,1~3
+NP38,Lipid,Neutral,Organic,Lipid,171.2,-16.8,Negative,DI-H2O,DI-H2O,<30,N,1~3
+NP39,Lipid,Neutral,Organic,Lipid,174.1,-16.9,Negative,DI-H2O,DI-H2O,<30,N,1~3
+NP40,Lipid,Neutral,Organic,Lipid,155.8,-10.6,Negative,DI-H2O,DI-H2O,<30,N,1~3
+NP41,Lipid,Neutral,Organic,Lipid,250,-14,Negative,Human Plasma,Human Plasma,<30,N,1~3
+NP42,Lipid,Neutral,Organic,Lipid,450,-14,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP43,Lipid,Neutral,Organic,Lipid,470,-12,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP44,Polymeric,Neutral,Inorganic,Metal,39.7,63.1,Positive,DI-H2O,Not Reported,>60,Y,Not Reported
+NP45,Polymeric,Neutral,Inorganic,Metal,82.3,69.3,Positive,DI-H2O,Not Reported,>60,Y,Not Reported
+NP46,Alkylthiols,Positive,Inorganic,Metal,40.2,-73.3,Negative,DI-H2O,Not Reported,>60,Y,Not Reported
+NP47,Alkylthiols,Positive,Inorganic,Metal,81.8,-43.9,Negative,DI-H2O,Not Reported,>60,Y,Not Reported
+NP48,Polymeric,Neutral,Inorganic,Metal,41.5,-10.8,Negative,DI-H2O,Not Reported,>60,Y,Not Reported
+NP49,Polymeric,Neutral,Inorganic,Metal,81.7,-12.8,Negative,DI-H2O,Not Reported,30~60,Y,Not Reported
+NP50,Polymeric,Negative,Organic,Other,244.5,-43.4,Negative,PBS,PBS,30~60,N,1~3
+NP51,Polymeric,Negative,Organic,Other,255.5,-43.4,Negative,PBS,PBS,30~60,N,1~3
+NP52,No Modification,No Modification,Inorganic,Silica,205,-25.2,Negative,PBS,PBS,30~60,N,1~3
+NP53,No Modification,No Modification,Inorganic,Silica,205,-25.2,Negative,PBS,PBS,30~60,N,1~3
+NP54,No Modification,No Modification,Inorganic,Metal Oxide,30,-29.9,Negative,Not Reported,Not Reported,30~60,Y,1~3
+NP55,No Modification,No Modification,Inorganic,Metal Oxide,225,-23.4,Negative,Not Reported,Not Reported,30~60,Y,1~3
+NP56,No Modification,No Modification,Inorganic,Metal Oxide,375,-24.3,Negative,Not Reported,Not Reported,30~60,Y,1~3
+NP57,No Modification,No Modification,Inorganic,Silica,20,-30,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP58,Carboxylic Acids,Negative,Inorganic,Silica,20,-29,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP59,Small Hydrocarbons,Neutral,Inorganic,Silica,20,-18,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP60,Small Hydrocarbons,Neutral,Inorganic,Silica,20,-15,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP61,Amines,Positive,Inorganic,Silica,20,2,Neutral,NaCl,Not Reported,30~60,Y,4~6
+NP62,No Modification,No Modification,Inorganic,Silica,20,-30,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP63,Carboxylic Acids,Negative,Inorganic,Silica,20,-29,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP64,Small Hydrocarbons,Neutral,Inorganic,Silica,20,-18,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP65,Small Hydrocarbons,Neutral,Inorganic,Silica,20,-15,Negative,NaCl,Not Reported,30~60,Y,4~6
+NP66,Amines,Positive,Inorganic,Silica,20,2,Neutral,NaCl,Not Reported,30~60,Y,4~6
+NP67,Surfactants,Neutral,Organic,Polystyrene,60,-8,Neutral,KCl,Not Reported,30~60,Y,1~3
+NP68,Surfactants,Neutral,Organic,Polystyrene,60,-8,Neutral,KCl,Not Reported,30~60,Y,1~3
+NP69,Surfactants,Neutral,Organic,Polystyrene,60,-8,Neutral,KCl,Not Reported,30~60,Y,1~3
+NP70,Surfactants,Neutral,Organic,Polystyrene,60,-8,Neutral,KCl,Not Reported,30~60,Y,1~3
+NP71,Surfactants,Neutral,Organic,Polystyrene,60,-8,Neutral,KCl,Not Reported,30~60,Y,1~3
+NP72,Polymeric,Neutral,Organic,Polystyrene,57,13,Positive,KCl,Not Reported,30~60,Y,1~3
+NP73,Polymeric,Neutral,Organic,Polystyrene,57,13,Positive,KCl,Not Reported,30~60,Y,1~3
+NP74,Carboxylic Acids,Neutral,Organic,Lipid,251.16,-20.1,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP75,Lipid,Neutral,Organic,Lipid,24.42,-17.8,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP76,Lipid,Neutral,Organic,Lipid,288.37,-25.17,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP77,Lipid,Neutral,Organic,Lipid,364.341,-21.93,Negative,DI-H2O,DI-H2O,>60,N,1~3
+NP78,No Modification,No Modification,Organic,Polystyrene,100,0,Neutral,DI-H2O,DI-H2O,30~60,N,Not Reported
+NP79,No Modification,No Modification,Organic,Polystyrene,100,1,Neutral,DI-H2O,DI-H2O,30~60,N,Not Reported
+NP80,Carboxylic Acids,Negative,Organic,Polystyrene,100,0.6,Neutral,DI-H2O,DI-H2O,30~60,N,Not Reported
+NP81,Carboxylic Acids,Negative,Organic,Polystyrene,100,0.3,Neutral,DI-H2O,DI-H2O,30~60,N,Not Reported
+NP82,No Modification,No Modification,Inorganic,Metal,49.3,-8.05,Neutral,PBS,Not Reported,30~60,N,1~3
+NP83,Sulfur-Based,Negative,Inorganic,Metal,55.6,-19.55,Negative,PBS,Not Reported,30~60,N,1~3
+NP84,No Modification,No Modification,Inorganic,Metal Oxide,41.9,-22.24,Negative,PBS,Not Reported,30~60,N,1~3
+NP85,Sulfur-Based,Negative,Inorganic,Metal Oxide,71.4,-26.4,Negative,PBS,Not Reported,30~60,N,1~3
+NP86,No Modification,No Modification,Inorganic,Metal,71.8,-8.05,Neutral,PBS,PBS,30~60,N,1~3
+NP87,Sulfur-Based,Negative,Inorganic,Metal,223.4,-19.55,Negative,PBS,PBS,30~60,N,1~3
+NP88,No Modification,No Modification,Inorganic,Metal Oxide,558.5,-22.24,Negative,PBS,PBS,30~60,N,1~3
+NP89,Sulfur-Based,Negative,Inorganic,Metal Oxide,654.3,-26.4,Negative,PBS,PBS,30~60,N,1~3
+NP90,No Modification,No Modification,Carbon-Based,Other,250,Not Reported,Not Reported,Not Reported,Not Reported,30~60,N,1~3
+NP91,Amines,Positive,Organic,Polystyrene,106,46,Positive,DI-H2O,DI-H2O,30~60,Y,1~3
+NP92,Polymeric,Neutral,Organic,Polystyrene,117,15,Positive,DI-H2O,DI-H2O,30~60,Y,1~3
+NP93,Polymeric,Neutral,Organic,Polystyrene,119,8,Neutral,DI-H2O,DI-H2O,30~60,Y,1~3
+NP94,Polymeric,Neutral,Organic,Polystyrene,117,-9,Neutral,DI-H2O,DI-H2O,30~60,Y,1~3
+NP95,Polymeric,Neutral,Organic,Polystyrene,122,-10,Neutral,DI-H2O,DI-H2O,30~60,Y,1~3
+NP96,No Modification,No Modification,Organic,Other,114,29.8,Positive,Human Plasma,Human Plasma,30~60,Y,1~3
+NP97,No Modification,No Modification,Organic,Other,149,31.7,Positive,Human Plasma,Human Plasma,30~60,Y,1~3
+NP98,Other,Negative,Organic,Other,191,-16.3,Negative,Human Plasma,Human Plasma,30~60,Y,1~3
+NP99,Other,Negative,Organic,Other,153,-17.4,Negative,Human Plasma,Human Plasma,30~60,Y,1~3
+NP100,Carboxylic Acids,Negative,Organic,Polystyrene,73.7,-43.5,Negative,PBS,PBS,30~60,N,Not Reported
+NP101,Carboxylic Acids,Negative,Organic,Polystyrene,73.7,-43.5,Negative,PBS,PBS,30~60,N,Not Reported
+NP102,Carboxylic Acids,Negative,Organic,Polystyrene,73.7,-43.5,Negative,PBS,PBS,30~60,N,Not Reported
+NP103,Carboxylic Acids,Negative,Organic,Polystyrene,73.7,-43.5,Negative,PBS,PBS,30~60,N,Not Reported
+NP104,Carboxylic Acids,Negative,Organic,Polystyrene,116.3,-53.2,Negative,PBS,PBS,30~60,N,Not Reported
+NP105,Sulfur-Based,Negative,Organic,Polystyrene,130,-61.2,Negative,PBS,PBS,30~60,N,Not Reported
+NP106,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP107,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP108,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP109,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP110,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP111,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP112,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP113,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP114,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP115,No Modification,No Modification,Inorganic,Metal Oxide,12,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP116,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP117,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP118,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP119,No Modification,No Modification,Inorganic,Metal Oxide,13,-35,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP120,No Modification,No Modification,Organic,Lipid,102,54.3,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP121,No Modification,No Modification,Organic,Lipid,102,54.3,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP122,No Modification,No Modification,Organic,Lipid,102,54.3,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP123,No Modification,No Modification,Organic,Lipid,109,56.3,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP124,No Modification,No Modification,Organic,Lipid,109,56.3,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP125,No Modification,No Modification,Organic,Lipid,109,56.3,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP126,No Modification,No Modification,Organic,Lipid,105,60.5,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP127,No Modification,No Modification,Organic,Lipid,105,60.5,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP128,No Modification,No Modification,Organic,Lipid,105,60.5,Positive,Not Reported,Not Reported,30~60,N,1~3
+NP129,No Modification,No Modification,Organic,Lipid,83.5,50.5,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP130,No Modification,No Modification,Organic,Lipid,90.8,51.2,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP131,No Modification,No Modification,Organic,Lipid,78.8,55.7,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP132,Polymeric,No Modification,Organic,Lipid,103.2,11.3,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP133,Polymeric,No Modification,Organic,Lipid,118.7,15.5,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP134,Polymeric,No Modification,Organic,Lipid,116.9,18.3,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP135,No Modification,No Modification,Organic,Lipid,86,27.4,Positive,DI-H2O,DI-H2O,30~60,N,1~3
+NP136,Carboxylic Acids,Negative,Carbon-Based,Other,80,-57,Negative,Other Buffer,Other Buffer,30~60,N,1~3
+NP137,Polymeric,Neutral,Inorganic,Metal,53.3,-21.2,Negative,Human Plasma,Human Plasma,>60,N,1~3
+NP138,Polymeric,Neutral,Inorganic,Metal,53.3,-21.2,Negative,Human Plasma,Human Plasma,>60,N,1~3
+NP139,Carboxylic Acids,Negative,Inorganic,Metal,58.1,-26.1,Negative,Human Plasma,Human Plasma,>60,N,1~3
+NP140,Carboxylic Acids,Negative,Inorganic,Metal,58.1,-26.1,Negative,Human Plasma,Human Plasma,>60,N,1~3
+NP141,Polymeric,Neutral,Inorganic,Metal,93.5,-6.6,Neutral,RPMI,RPMI,>60,N,1~3
+NP142,Polymeric,Neutral,Inorganic,Metal,93.5,-6.6,Neutral,RPMI,RPMI,>60,N,1~3
+NP143,Carboxylic Acids,Negative,Inorganic,Metal,115.3,-9.9,Neutral,RPMI,RPMI,>60,N,1~3
+NP144,Carboxylic Acids,Negative,Inorganic,Metal,115.3,-9.9,Neutral,RPMI,RPMI,>60,N,1~3
+NP145,Polymeric,Neutral,Inorganic,Metal,58.6,-25.1,Negative,DI-H2O,DI-H2O,>60,N,1~3
+NP146,Polymeric,Neutral,Inorganic,Metal,58.6,-25.1,Negative,DI-H2O,DI-H2O,>60,N,1~3
+NP147,Carboxylic Acids,Negative,Inorganic,Metal,26.6,-37,Negative,DI-H2O,DI-H2O,>60,N,1~3
+NP148,Carboxylic Acids,Negative,Inorganic,Metal,26.6,-37,Negative,DI-H2O,DI-H2O,>60,N,1~3
+NP149,Polymeric,Neutral,Inorganic,Metal,99.5,-6.4,Neutral,PBS,PBS,>60,N,1~3
+NP150,Polymeric,Neutral,Inorganic,Metal,99.5,-6.4,Neutral,PBS,PBS,>60,N,1~3
+NP151,Carboxylic Acids,Negative,Inorganic,Metal,654.7,-16.1,Negative,PBS,PBS,>60,N,1~3
+NP152,Carboxylic Acids,Negative,Inorganic,Metal,654.7,-16.1,Negative,PBS,PBS,>60,N,1~3
+NP153,Polymeric,Neutral,Inorganic,Metal,21.6,-21.2,Negative,Human Plasma,Not Reported,>60,N,1~3
+NP154,Carboxylic Acids,Negative,Inorganic,Metal,24.3,-26.1,Negative,Human Plasma,Not Reported,>60,N,1~3
+NP155,Polymeric,Neutral,Inorganic,Metal,21.6,-6.6,Neutral,RPMI,Not Reported,>60,N,1~3
+NP156,Carboxylic Acids,Negative,Inorganic,Metal,24.3,-9.9,Neutral,RPMI,Not Reported,>60,N,1~3
+NP157,Polymeric,Neutral,Inorganic,Metal,21.6,-25.1,Negative,DI-H2O,Not Reported,>60,N,1~3
+NP158,Carboxylic Acids,Negative,Inorganic,Metal,24.3,-37,Negative,DI-H2O,Not Reported,>60,N,1~3
+NP159,Polymeric,Neutral,Inorganic,Metal,21.6,-6.4,Neutral,PBS,Not Reported,>60,N,1~3
+NP160,Carboxylic Acids,Negative,Inorganic,Metal,24.3,-16.1,Negative,PBS,Not Reported,30~60,N,1~3
+NP161,No Modification,No Modification,Inorganic,Silica,118,-13.5,Negative,PBS,PBS,30~60,Y,1~3
+NP162,No Modification,No Modification,Inorganic,Silica,118,-13.5,Negative,PBS,PBS,30~60,Y,1~3
+NP163,No Modification,No Modification,Inorganic,Silica,118,-13.5,Negative,PBS,PBS,30~60,Y,1~3
+NP164,Polymeric,Neutral,Inorganic,Metal,55.78,-25.1,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP165,Polymeric,Neutral,Inorganic,Metal,27.11,-24.5,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP166,Carboxylic Acids,Negative,Inorganic,Metal,30.03,-24.3,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP167,Polymeric,Neutral,Inorganic,Metal,43.14,53.95,Positive,DI-H2O,DI-H2O,30~60,N,4~6
+NP168,Carboxylic Acids,Negative,Inorganic,Metal,26.61,-36.95,Negative,DI-H2O,DI-H2O,30~60,N,4~6
+NP169,Polymeric,Neutral,Inorganic,Metal,37.2,47,Positive,DI-H2O,DI-H2O,30~60,N,4~6
+NP170,Polymeric,Neutral,Inorganic,Metal,75.36,-21.2,Negative,Human Plasma,Human Plasma,30~60,N,4~6
+NP171,Polymeric,Neutral,Inorganic,Metal,47.02,-23.97,Negative,Human Plasma,Human Plasma,30~60,N,4~6
+NP172,Carboxylic Acids,Negative,Inorganic,Metal,56.6,-24.97,Negative,Human Plasma,Human Plasma,30~60,N,4~6
+NP173,Polymeric,Neutral,Inorganic,Metal,301.67,-25.7,Negative,Human Plasma,Human Plasma,30~60,N,4~6
+NP174,Carboxylic Acids,Negative,Inorganic,Metal,58.1,-26.13,Negative,Human Plasma,Human Plasma,30~60,N,4~6
+NP175,Polymeric,Neutral,Inorganic,Metal,295.2,-26.9,Negative,Human Plasma,Human Plasma,30~60,N,4~6
+NP176,No Modification,No Modification,Organic,Lipid,83.5,50.5,Positive,PBS,PBS,30~60,Y,1~3
+NP177,No Modification,No Modification,Organic,Lipid,90.8,51.2,Positive,PBS,PBS,30~60,Y,1~3
+NP178,No Modification,No Modification,Organic,Lipid,85.6,55.6,Positive,PBS,PBS,30~60,Y,1~3
+NP179,No Modification,No Modification,Organic,Lipid,78.8,55.7,Positive,PBS,PBS,30~60,Y,1~3
+NP180,No Modification,No Modification,Organic,Lipid,119.2,56.3,Positive,PBS,PBS,30~60,Y,1~3
+NP181,No Modification,No Modification,Organic,Lipid,99.6,59.2,Positive,PBS,PBS,30~60,Y,1~3
+NP182,No Modification,No Modification,Organic,Lipid,156.5,-1.5,Neutral,Human Plasma,Human Plasma,30~60,Y,1~3
+NP183,No Modification,No Modification,Organic,Lipid,220,-10.6,Negative,Human Plasma,Human Plasma,30~60,Y,1~3
+NP184,No Modification,No Modification,Organic,Lipid,210,-11.2,Negative,Human Plasma,Human Plasma,30~60,Y,1~3
+NP185,No Modification,No Modification,Organic,Lipid,250,-11.4,Negative,Human Plasma,Human Plasma,30~60,Y,1~3
+NP186,No Modification,No Modification,Organic,Lipid,178.1,-2.1,Neutral,Human Plasma,Human Plasma,30~60,Y,1~3
+NP187,No Modification,No Modification,Organic,Lipid,187.4,-2.4,Neutral,Human Plasma,Human Plasma,30~60,Y,1~3
+NP188,Polymeric,Neutral,Organic,Lipid,152.85,-13.74,Negative,Human Plasma,Human Plasma,30~60,Y,1~3
+NP189,No Modification,No Modification,Organic,Lipid,208,-15.7,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP190,Carboxylic Acids,Negative,Organic,Polystyrene,220,-13.5,Negative,PBS,PBS,30~60,N,4~6
+NP191,Polymeric,Neutral,Organic,Lipid,103.2,9.9,Neutral,PBS,PBS,30~60,N,1~3
+NP192,Polymeric,Neutral,Organic,Lipid,123,17.9,Positive,PBS,PBS,30~60,N,1~3
+NP193,Polymeric,Neutral,Organic,Lipid,114,18.1,Positive,PBS,PBS,30~60,N,1~3
+NP194,No Modification,No Modification,Organic,Lipid,131,26.1,Positive,PBS,PBS,30~60,N,1~3
+NP195,No Modification,No Modification,Organic,Lipid,135,30.1,Positive,PBS,PBS,30~60,N,1~3
+NP196,No Modification,No Modification,Organic,Lipid,144,30.2,Positive,PBS,PBS,30~60,N,1~3
+NP197,No Modification,No Modification,Organic,Lipid,254.6,33.1,Positive,PBS,PBS,30~60,N,1~3
+NP198,No Modification,No Modification,Organic,Lipid,108,34.5,Positive,PBS,PBS,30~60,N,1~3
+NP199,No Modification,No Modification,Organic,Lipid,193.4,42.1,Positive,PBS,PBS,30~60,N,1~3
+NP200,No Modification,No Modification,Organic,Lipid,125,46.2,Positive,PBS,PBS,30~60,N,1~3
+NP201,No Modification,No Modification,Organic,Lipid,128,47.4,Positive,PBS,PBS,30~60,N,1~3
+NP202,No Modification,No Modification,Organic,Lipid,157,58.2,Positive,PBS,PBS,30~60,N,1~3
+NP203,Polymeric,Neutral,Organic,Lipid,115,-13.2,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP204,Polymeric,Neutral,Organic,Lipid,137,-13.9,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP205,No Modification,No Modification,Organic,Lipid,126,-14.2,Negative,PBS,PBS,30~60,N,1~3
+NP206,No Modification,No Modification,Organic,Lipid,329,-15.4,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP207,No Modification,No Modification,Organic,Lipid,216,-17.9,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP208,No Modification,No Modification,Organic,Lipid,152,-18.2,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP209,No Modification,No Modification,Organic,Lipid,259,-19.3,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP210,No Modification,No Modification,Organic,Lipid,236,-19.3,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP211,No Modification,No Modification,Organic,Lipid,207,-20.4,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP212,No Modification,No Modification,Organic,Lipid,301,-22.1,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP213,No Modification,No Modification,Organic,Lipid,150,-23,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP214,Polymeric,Neutral,Organic,Lipid,169,-24.5,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP215,No Modification,No Modification,Organic,Lipid,182,-25.5,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP216,No Modification,No Modification,Organic,Lipid,136,-26.6,Negative,PBS,PBS,30~60,N,1~3
+NP217,No Modification,No Modification,Organic,Lipid,211,-28.5,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP218,No Modification,No Modification,Organic,Lipid,171,-28.6,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP219,No Modification,No Modification,Organic,Lipid,178,-29.3,Negative,Human Plasma,Human Plasma,30~60,N,1~3
+NP220,No Modification,No Modification,Organic,Lipid,191,-8.4,Neutral,PBS,PBS,30~60,N,1~3
+NP221,No Modification,No Modification,Inorganic,Metal Oxide,250,-19.5,Negative,Not Reported,Not Reported,30~60,Y,1~3
+NP222,Alkylthiols,Negative,Inorganic,Metal,52,-14.23833333,Negative,PBS,PBS,>60,N,1~3
+NP223,Amino Acid,Negative,Inorganic,Metal,97.68,-12.15,Negative,PBS,PBS,>60,N,1~3
+NP224,Amines,Positive,Inorganic,Metal,41.78,-11.75166667,Negative,PBS,PBS,>60,N,1~3
+NP225,Amino Acid,Negative,Inorganic,Metal,60.9,-11.645,Negative,PBS,PBS,>60,N,1~3
+NP226,Peptide,Negative,Inorganic,Metal,103.94,-11.57666667,Negative,PBS,PBS,>60,N,1~3
+NP227,Alkylthiols,Positive,Inorganic,Metal,108.27,-11.46666667,Negative,PBS,PBS,>60,N,1~3
+NP228,Peptide,Negative,Inorganic,Metal,65.4,-11.405,Negative,PBS,PBS,>60,N,1~3
+NP229,Amino Acid,Negative,Inorganic,Metal,64.29,-11.355,Negative,PBS,PBS,>60,N,1~3
+NP230,Alkylthiols,Negative,Inorganic,Metal,61.91,-11.13833333,Negative,PBS,PBS,>60,N,1~3
+NP231,Alkylthiols,Negative,Inorganic,Metal,55.65,-10.96166667,Negative,PBS,PBS,>60,N,1~3
+NP232,Alkylthiols,Negative,Inorganic,Metal,62.97,-10.8975,Negative,PBS,PBS,>60,N,1~3
+NP233,Amines,Positive,Inorganic,Metal,94.45,-10.795,Negative,PBS,PBS,>60,N,1~3
+NP234,Alkylthiols,Negative,Inorganic,Metal,60.99,-10.705,Negative,PBS,PBS,>60,N,1~3
+NP235,Alkylthiols,Negative,Inorganic,Metal,105.18,-10.66,Negative,PBS,PBS,>60,N,1~3
+NP236,Amino Acid,Negative,Inorganic,Metal,61.31,-10.59833333,Negative,PBS,PBS,>60,N,1~3
+NP237,Amino Acid,Negative,Inorganic,Metal,41.93,-10.42333333,Negative,PBS,PBS,>60,N,1~3
+NP238,Alkylthiols,Negative,Inorganic,Metal,60.27,-10.41666667,Negative,PBS,PBS,>60,N,1~3
+NP239,Amino Acid,Negative,Inorganic,Metal,94.89,-10.26333333,Negative,PBS,PBS,>60,N,1~3
+NP240,Alkylthiols,Negative,Inorganic,Metal,61.86,-10.21333333,Negative,PBS,PBS,>60,N,1~3
+NP241,Amino Acid,Negative,Inorganic,Metal,57.28,-10.09,Negative,PBS,PBS,>60,N,1~3
+NP242,Amines,Positive,Inorganic,Metal,77.26,-10.03333333,Negative,PBS,PBS,>60,N,1~3
+NP243,Polymeric,Positive,Inorganic,Metal,68.42,-9.8175,Neutral,PBS,PBS,>60,N,1~3
+NP244,Surfactants,Positive,Inorganic,Metal,107.61,-9.765,Neutral,PBS,PBS,>60,N,1~3
+NP245,Peptide,Negative,Inorganic,Metal,68.38,-9.72,Neutral,PBS,PBS,>60,N,1~3
+NP246,Alkylthiols,Positive,Inorganic,Metal,47.03,-9.7,Neutral,PBS,PBS,>60,N,1~3
+NP247,Alkylthiols,Positive,Inorganic,Metal,114.53,-9.696666667,Neutral,PBS,PBS,>60,N,1~3
+NP248,Other,Negative,Inorganic,Metal,105.01,-9.683333333,Neutral,PBS,PBS,>60,N,1~3
+NP249,Amino Acid,Negative,Inorganic,Metal,100.73,-9.628333333,Neutral,PBS,PBS,>60,N,1~3
+NP250,Polymeric,Neutral,Inorganic,Metal,88.32,-9.618166667,Neutral,PBS,PBS,>60,N,1~3
+NP251,Alkylthiols,Positive,Inorganic,Metal,53.24,-9.611666667,Neutral,PBS,PBS,>60,N,1~3
+NP252,Alkylthiols,Negative,Inorganic,Metal,100.75,-9.600833333,Neutral,PBS,PBS,>60,N,1~3
+NP253,Alkylthiols,Negative,Inorganic,Metal,66.32,-9.411666667,Neutral,PBS,PBS,>60,N,1~3
+NP254,Amines,Positive,Inorganic,Metal,95.18,-9.311666667,Neutral,PBS,PBS,>60,N,1~3
+NP255,Surfactants,Positive,Inorganic,Metal,59.7,-9.25875,Neutral,PBS,PBS,>60,N,1~3
+NP256,Amino Acid,Negative,Inorganic,Metal,57.53,-9.111666667,Neutral,PBS,PBS,>60,N,1~3
+NP257,Polymeric,Neutral,Inorganic,Metal,39.99,-8.9875,Neutral,PBS,PBS,>60,N,1~3
+NP258,Carboxylic Acids,Negative,Inorganic,Metal,109.94,-8.966666667,Neutral,PBS,PBS,>60,N,1~3
+NP259,Alkylthiols,Negative,Inorganic,Metal,48.09,-8.9525,Neutral,PBS,PBS,>60,N,1~3
+NP260,Alkylthiols,Negative,Inorganic,Metal,58.99,-8.918333333,Neutral,PBS,PBS,>60,N,1~3
+NP261,Alkylthiols,Negative,Inorganic,Metal,67.37,-8.81,Neutral,PBS,PBS,>60,N,1~3
+NP262,Amines,Positive,Inorganic,Metal,90.06,-8.788333333,Neutral,PBS,PBS,>60,N,1~3
+NP263,Alkylthiols,Negative,Inorganic,Metal,67.7,-8.738333333,Neutral,PBS,PBS,>60,N,1~3
+NP264,Amino Acid,Negative,Inorganic,Metal,57.25,-8.731666667,Neutral,PBS,PBS,>60,N,1~3
+NP265,Polymeric,Neutral,Inorganic,Metal,65.58,-8.713333333,Neutral,PBS,PBS,>60,N,1~3
+NP266,Alkylthiols,Negative,Inorganic,Metal,102.9,-8.661666667,Neutral,PBS,PBS,>60,N,1~3
+NP267,Alkylthiols,Negative,Inorganic,Metal,43.62,-8.646666667,Neutral,PBS,PBS,>60,N,1~3
+NP268,Alkylthiols,Negative,Inorganic,Metal,41.94,-8.595,Neutral,PBS,PBS,>60,N,1~3
+NP269,Carboxylic Acids,Negative,Inorganic,Metal,54.03,-8.501666667,Neutral,PBS,PBS,>60,N,1~3
+NP270,Polymeric,Negative,Inorganic,Metal,51.52,-8.451666667,Neutral,PBS,PBS,>60,N,1~3
+NP271,Alkylthiols,Positive,Inorganic,Metal,106.63,-8.354444444,Neutral,PBS,PBS,>60,N,1~3
+NP272,Alkylthiols,Negative,Inorganic,Metal,45.52,-8.349722222,Neutral,PBS,PBS,>60,N,1~3
+NP273,Amino Acid,Negative,Inorganic,Metal,37.75,-8.291666667,Neutral,PBS,PBS,>60,N,1~3
+NP274,Alkylthiols,Negative,Inorganic,Metal,50.05,-8.138333333,Neutral,PBS,PBS,>60,N,1~3
+NP275,Polymeric,Negative,Inorganic,Metal,106.12,-8.073333333,Neutral,PBS,PBS,>60,N,1~3
+NP276,Alkylthiols,Positive,Inorganic,Metal,127.34,-8.065833333,Neutral,PBS,PBS,>60,N,1~3
+NP277,Other,Negative,Inorganic,Metal,48.66,-8.028333333,Neutral,PBS,PBS,>60,N,1~3
+NP278,Alkylthiols,Negative,Inorganic,Metal,43.77,-7.945833333,Neutral,PBS,PBS,>60,N,1~3
+NP279,Amines,Positive,Inorganic,Metal,55.98,-7.945,Neutral,PBS,PBS,>60,N,1~3
+NP280,Alkylthiols,Positive,Inorganic,Metal,122.28,-7.943333333,Neutral,PBS,PBS,>60,N,1~3
+NP281,Amino Acid,Negative,Inorganic,Metal,58.53,-7.907666667,Neutral,PBS,PBS,>60,N,1~3
+NP282,Alkylthiols,Negative,Inorganic,Metal,41.64,-7.806666667,Neutral,PBS,PBS,>60,N,1~3
+NP283,Amines,Positive,Inorganic,Metal,54.89,-7.726666667,Neutral,PBS,PBS,>60,N,1~3
+NP284,Alkylthiols,Negative,Inorganic,Metal,61.79,-7.573333333,Neutral,PBS,PBS,>60,N,1~3
+NP285,Polymeric,Neutral,Inorganic,Metal,44.6,-7.48,Neutral,PBS,PBS,>60,N,1~3
+NP286,Amino Acid,Negative,Inorganic,Metal,43.48,-7.368333333,Neutral,PBS,PBS,>60,N,1~3
+NP287,Amino Acid,Negative,Inorganic,Metal,52.42,-7.198333333,Neutral,PBS,PBS,>60,N,1~3
+NP288,Alkylthiols,Positive,Inorganic,Metal,71.85,-7.196666667,Neutral,PBS,PBS,>60,N,1~3
+NP289,Polymeric,Positive,Inorganic,Metal,52.46,-7.043333333,Neutral,PBS,PBS,>60,N,1~3
+NP290,Amino Acid,Negative,Inorganic,Metal,42.05,-6.778333333,Neutral,PBS,PBS,>60,N,1~3
+NP291,Amino Acid,Negative,Inorganic,Metal,44.43,-6.728333333,Neutral,PBS,PBS,>60,N,1~3
+NP292,Other,Negative,Inorganic,Metal,46.63,-6.633333333,Neutral,PBS,PBS,>60,N,1~3
+NP293,Polymeric,Neutral,Inorganic,Metal,29.68,-6.628333333,Neutral,PBS,PBS,>60,N,1~3
+NP294,Peptide,Negative,Inorganic,Metal,38.8,-6.536666667,Neutral,PBS,PBS,>60,N,1~3
+NP295,Alkylthiols,Positive,Inorganic,Metal,48.4,-6.523333333,Neutral,PBS,PBS,>60,N,1~3
+NP296,Alkylthiols,Negative,Inorganic,Metal,93.52,-6.52,Neutral,PBS,PBS,>60,N,1~3
+NP297,Polymeric,Positive,Inorganic,Metal,68.07,-6.483333333,Neutral,PBS,PBS,>60,N,1~3
+NP298,Alkylthiols,Positive,Inorganic,Metal,47.34,-6.373333333,Neutral,PBS,PBS,>60,N,1~3
+NP299,Alkylthiols,Positive,Inorganic,Metal,59.93,-6.096666667,Neutral,PBS,PBS,>60,N,1~3
+NP300,Carboxylic Acids,Negative,Inorganic,Metal,46.53,-6.091666667,Neutral,PBS,PBS,>60,N,1~3
+NP301,Polymeric,Negative,Inorganic,Metal,53.12,-6.063333333,Neutral,PBS,PBS,>60,N,1~3
+NP302,Polymeric,Neutral,Inorganic,Metal,52.02,-5.993333333,Neutral,PBS,PBS,>60,N,1~3
+NP303,Polymeric,Neutral,Inorganic,Metal,38.69,-5.913333333,Neutral,PBS,PBS,>60,N,1~3
+NP304,Alkylthiols,Positive,Inorganic,Metal,100.13,-5.705,Neutral,PBS,PBS,>60,N,1~3
+NP305,Amino Acid,Negative,Inorganic,Metal,55.39,-5.676666667,Neutral,PBS,PBS,>60,N,1~3
+NP306,Amino Acid,Negative,Inorganic,Metal,72.3,-5.643333333,Neutral,PBS,PBS,>60,N,1~3
+NP307,Alkylthiols,Positive,Inorganic,Metal,61.43,-5.518333333,Neutral,PBS,PBS,>60,N,1~3
+NP308,Alkylthiols,Positive,Inorganic,Metal,58.95,-5.455,Neutral,PBS,PBS,>60,N,1~3
+NP309,Alkylthiols,Positive,Inorganic,Metal,53.41,-5.43,Neutral,PBS,PBS,>60,N,1~3
+NP310,Alkylthiols,Negative,Inorganic,Metal,44.75,-5.351666667,Neutral,PBS,PBS,>60,N,1~3
+NP311,Alkylthiols,Negative,Inorganic,Metal,41.88,-5.258333333,Neutral,PBS,PBS,>60,N,1~3
+NP312,Polymeric,Negative,Inorganic,Metal,52.96,-5.238333333,Neutral,PBS,PBS,>60,N,1~3
+NP313,Alkylthiols,Positive,Inorganic,Metal,55.07,-5.140833333,Neutral,PBS,PBS,>60,N,1~3
+NP314,Polymeric,Neutral,Inorganic,Metal,51.18,-5.0435,Neutral,PBS,PBS,>60,N,1~3
+NP315,Alkylthiols,Neutral,Inorganic,Metal,226.51,-5.007083333,Neutral,PBS,PBS,>60,N,1~3
+NP316,Polymeric,Neutral,Inorganic,Metal,84.87,-4.4106,Neutral,PBS,PBS,>60,N,1~3
+NP317,Alkylthiols,Negative,Inorganic,Metal,47,-3.916833333,Neutral,PBS,PBS,>60,N,1~3
+NP318,Alkylthiols,Negative,Inorganic,Metal,64.65,-3.891333333,Neutral,PBS,PBS,>60,N,1~3
+NP319,Polymeric,Neutral,Inorganic,Metal,47.07,-3.772566667,Neutral,PBS,PBS,>60,N,1~3
+NP320,Alkylthiols,Negative,Inorganic,Metal,100.88,-3.580333333,Neutral,PBS,PBS,>60,N,1~3
+NP321,Polymeric,Neutral,Inorganic,Metal,48.76,-2.935,Neutral,PBS,PBS,>60,N,1~3
+NP322,Polymeric,Neutral,Inorganic,Metal,33.05,-2.753333333,Neutral,PBS,PBS,>60,N,1~3
+NP323,Polymeric,Neutral,Inorganic,Metal,110.75,-2.232166667,Neutral,PBS,PBS,>60,N,1~3
+NP324,Polymeric,Neutral,Inorganic,Metal,98.21,-2.015,Neutral,PBS,PBS,>60,N,1~3
+NP325,Polymeric,Neutral,Inorganic,Metal,34.77,-1.730833333,Neutral,PBS,PBS,>60,N,1~3
+NP326,Polymeric,Neutral,Inorganic,Metal,127.22,-0.61,Neutral,PBS,PBS,>60,N,1~3
+NP327,Amines,Positive,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP328,Carboxylic Acids,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP329,Polymeric,Neutral,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP330,Alkylthiols,Positive,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP331,Amines,Positive,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP332,Alkylthiols,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP333,Alkylthiols,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP334,Alkylthiols,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP335,Alkylthiols,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP336,Alkylthiols,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP337,Polymeric,Neutral,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP338,Alkylthiols,Positive,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP339,Polymeric,Neutral,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP340,Amino Acid,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP341,Polymeric,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP342,Carboxylic Acids,Negative,Inorganic,Metal,38.4,-13.5,Negative,PBS,PBS,>60,N,1~3
+NP343,Amines,Positive,Organic,Polystyrene,116,42.8,Positive,KCl,KCl,30~60,Y,1~3
+NP344,Amines,Positive,Organic,Polystyrene,116,42.8,Positive,KCl,KCl,30~60,Y,1~3
+NP345,Amines,Positive,Organic,Polystyrene,116,42.8,Positive,KCl,KCl,30~60,Y,1~3
+NP346,Amines,Positive,Organic,Polystyrene,116,42.8,Positive,KCl,KCl,30~60,Y,1~3
+NP347,Amines,Positive,Organic,Polystyrene,116,42.8,Positive,KCl,KCl,30~60,Y,1~3
+NP348,Amines,Positive,Organic,Polystyrene,116,42.8,Positive,KCl,KCl,30~60,Y,1~3
+NP349,Silicon-Based,Neutral,Inorganic,Metal Oxide,391.7,-11.24,Negative,RPMI,RPMI,>60,Not Reported,1~3
+NP350,Silicon-Based,Neutral,Inorganic,Metal Oxide,124.8,-19.92,Negative,RPMI,RPMI,>60,Not Reported,1~3
+NP351,Polymeric,Neutral,Organic,Lipid,60,Not Reported,Not Reported,Not Reported,Not Reported,>60,N,Not Reported
+NP352,No Modification,No Modification,Organic,Other,223.5,49.5,Positive,Not Reported,Not Reported,>60,N,Not Reported
+NP353,No Modification,No Modification,Organic,Other,223.5,49.5,Positive,Not Reported,Not Reported,>60,N,Not Reported
+NP354,No Modification,No Modification,Organic,Other,287.7,-7.6,Neutral,Not Reported,Not Reported,>60,N,Not Reported
+NP355,No Modification,No Modification,Organic,Other,287.7,-7.6,Neutral,Not Reported,Not Reported,>60,N,Not Reported
+NP356,No Modification,No Modification,Inorganic,Silica,220.8,-19.9,Negative,HEPES,PBS,>60,N,1~3
+NP357,No Modification,No Modification,Inorganic,Silica,143.5,-39.1,Negative,HEPES,PBS,>60,N,1~3
+NP358,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP359,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP360,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP361,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP362,Carboxylic Acids,Negative,Organic,Polystyrene,70,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP363,Carboxylic Acids,Negative,Organic,Polystyrene,70,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP364,Amines,Positive,Organic,Polystyrene,74,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP365,Amines,Positive,Organic,Polystyrene,74,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP366,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP367,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP368,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP369,No Modification,No Modification,Organic,Polystyrene,73,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP370,Carboxylic Acids,Negative,Organic,Polystyrene,70,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP371,Carboxylic Acids,Negative,Organic,Polystyrene,70,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP372,Amines,Positive,Organic,Polystyrene,74,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP373,Amines,Positive,Organic,Polystyrene,74,-13.5,Negative,DI-H2O,DI-H2O,30~60,N,1~3
+NP374,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP375,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP376,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP377,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP378,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP379,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP380,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP381,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP382,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP383,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP384,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP385,No Modification,No Modification,Inorganic,Metal Oxide,10,-44,Negative,KCl,KCl,30~60,N,1~3
+NP386,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP387,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP388,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP389,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP390,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP391,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP392,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP393,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP394,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP395,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP396,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
+NP397,No Modification,No Modification,Inorganic,Metal Oxide,10,-50,Negative,KCl,KCl,30~60,N,1~3
