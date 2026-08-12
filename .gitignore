@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python package metadata
+*.egg-info/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Temporary results
+results/tmp/
