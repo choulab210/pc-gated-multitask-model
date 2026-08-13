@@ -2,8 +2,8 @@
 Run External Validation
 =======================
 
-Evaluate the saved two-head protein corona model on the independent
-external-validation dataset (Data_val.csv).
+Evaluate the saved gated two-head protein corona model on the
+independent external-validation dataset (Data_val.csv).
 
 Workflow
 --------
@@ -14,7 +14,8 @@ Workflow
 5. Match external proteins to the model protein panel.
 6. Run inference without retraining.
 7. Calculate overall, category-level, and per-NP performance.
-8. Save validation results.
+8. Aggregate observed and predicted abundance by functional category.
+9. Save validation results and Figure 5 composition data.
 
 Run from the project root:
 
@@ -77,25 +78,13 @@ RESULTS_DIR.mkdir(
     exist_ok=True,
 )
 
-FEATURE_FILE = (
-    DATA_DIR
-    / "Data_1.csv"
-)
+FEATURE_FILE = DATA_DIR / "Data_1.csv"
 
-ABUNDANCE_FILE = (
-    DATA_DIR
-    / "Data_2.csv"
-)
+ABUNDANCE_FILE = DATA_DIR / "Data_2.csv"
 
-VALIDATION_FILE = (
-    DATA_DIR
-    / "Data_val.csv"
-)
+VALIDATION_FILE = DATA_DIR / "Data_val.csv"
 
-METADATA_FILE = (
-    DATA_DIR
-    / "protein_metadata.csv"
-)
+METADATA_FILE = DATA_DIR / "protein_metadata.csv"
 
 CHECKPOINT_FILE = (
     PROJECT_ROOT
@@ -151,7 +140,7 @@ def load_model_from_checkpoint(
     device: torch.device,
 ) -> TwoHead:
     """
-    Reconstruct the TwoHead model from the saved checkpoint.
+    Reconstruct the gated TwoHead model from the saved checkpoint.
     """
 
     config = checkpoint[
@@ -220,15 +209,7 @@ def prepare_external_feature_matrix(
     """
     Transform external features using the preprocessing fitted on
     the original model-development data.
-
-    NP_ID is retained while passing through the preprocessor because
-    data.py uses it for sample tracking. It is removed before neural
-    network inference.
     """
-
-    # ------------------------------------------------------------------
-    # Check required feature columns
-    # ------------------------------------------------------------------
 
     required_columns = (
         ["NP_ID"]
@@ -250,31 +231,20 @@ def prepare_external_feature_matrix(
             f"{missing_columns}"
         )
 
-    # ------------------------------------------------------------------
-    # Keep NP_ID + input features
-    # ------------------------------------------------------------------
-
     external_feature_df = (
         validation_df[
             required_columns
         ].copy()
     )
 
-    # ------------------------------------------------------------------
-    # Apply training-fitted preprocessing
-    # ------------------------------------------------------------------
-
+    # Apply the preprocessing learned from the development dataset.
     transformed = (
         prepared.preprocessor.transform(
             external_feature_df
         )
     )
 
-    # ------------------------------------------------------------------
-    # data.py preserves NP_ID in the transformed dataframe.
-    # Remove it before passing the matrix into PyTorch.
-    # ------------------------------------------------------------------
-
+    # data.py may preserve NP_ID. It must not be passed to PyTorch.
     if isinstance(
         transformed,
         pd.DataFrame,
@@ -306,10 +276,6 @@ def prepare_external_feature_matrix(
             dtype=np.float32,
         )
 
-    # ------------------------------------------------------------------
-    # Safety check
-    # ------------------------------------------------------------------
-
     expected_input_dim = int(
         checkpoint[
             "input_dim"
@@ -326,6 +292,14 @@ def prepare_external_feature_matrix(
             f"Model expects {expected_input_dim}, "
             f"but external preprocessing produced "
             f"{X_external.shape[1]}."
+        )
+
+    if np.isnan(
+        X_external
+    ).any():
+
+        raise ValueError(
+            "NaN found in external encoded feature matrix."
         )
 
     return X_external
@@ -348,10 +322,6 @@ def build_category_summary(
 
     rows = []
 
-    # ------------------------------------------------------------------
-    # Overall
-    # ------------------------------------------------------------------
-
     overall = (
         external_validation_metrics(
             targets,
@@ -362,25 +332,29 @@ def build_category_summary(
 
     rows.append(
         {
-            "Category": "Overall",
-            "N": overall[
-                "N"
-            ],
-            "F1": overall[
-                "F1"
-            ],
-            "Cosine": overall[
-                "Cosine"
-            ],
+            "Category":
+                "Overall",
+
+            "N":
+                overall[
+                    "N"
+                ],
+
+            "F1":
+                overall[
+                    "F1"
+                ],
+
+            "Cosine":
+                overall[
+                    "Cosine"
+                ],
         }
     )
 
-    # ------------------------------------------------------------------
-    # Create category -> full model-output index mapping
-    # ------------------------------------------------------------------
-
     category_indices = {
-        category: []
+        category:
+            []
         for category
         in CATEGORY_ORDER
     }
@@ -414,10 +388,6 @@ def build_category_summary(
         ].append(
             model_index
         )
-
-    # ------------------------------------------------------------------
-    # Category metrics
-    # ------------------------------------------------------------------
 
     for category in CATEGORY_ORDER:
 
@@ -488,10 +458,6 @@ def build_per_np_summary(
         targets.overlap_indices
     )
 
-    # ------------------------------------------------------------------
-    # Presence
-    # ------------------------------------------------------------------
-
     observed_presence = (
         targets.Y_presence[
             :,
@@ -505,11 +471,9 @@ def build_per_np_summary(
             indices
         ]
         >= 0.5
-    ).astype(int)
-
-    # ------------------------------------------------------------------
-    # Abundance
-    # ------------------------------------------------------------------
+    ).astype(
+        int
+    )
 
     observed_abundance = (
         renormalize_over_columns(
@@ -528,12 +492,10 @@ def build_per_np_summary(
     rows = []
 
     for sample_index in range(
-        len(validation_df)
+        len(
+            validation_df
+        )
     ):
-
-        # --------------------------------------------------------------
-        # NP identifier
-        # --------------------------------------------------------------
 
         np_id = str(
             validation_df[
@@ -542,10 +504,6 @@ def build_per_np_summary(
                 sample_index
             ]
         )
-
-        # --------------------------------------------------------------
-        # F1
-        # --------------------------------------------------------------
 
         y_true = (
             observed_presence[
@@ -600,10 +558,6 @@ def build_per_np_summary(
 
             f1_value = 0.0
 
-        # --------------------------------------------------------------
-        # Cosine similarity
-        # --------------------------------------------------------------
-
         observed_vector = (
             observed_abundance[
                 sample_index
@@ -640,7 +594,9 @@ def build_per_np_summary(
 
         else:
 
-            cosine_value = np.nan
+            cosine_value = (
+                np.nan
+            )
 
         rows.append(
             {
@@ -697,6 +653,9 @@ def build_category_composition(
     """
     Aggregate observed and predicted protein abundance into functional
     categories for each external NP.
+
+    Abundance is first restricted to the externally detected overlapping
+    protein panel and renormalized within that panel.
     """
 
     indices = list(
@@ -706,10 +665,6 @@ def build_category_composition(
     protein_ids = list(
         targets.overlap_proteins
     )
-
-    # ------------------------------------------------------------------
-    # Restrict to external overlap panel
-    # ------------------------------------------------------------------
 
     observed = (
         renormalize_over_columns(
@@ -728,7 +683,9 @@ def build_category_composition(
     rows = []
 
     for sample_index in range(
-        len(validation_df)
+        len(
+            validation_df
+        )
     ):
 
         np_id = str(
@@ -740,13 +697,15 @@ def build_category_composition(
         )
 
         observed_category = {
-            category: 0.0
+            category:
+                0.0
             for category
             in CATEGORY_ORDER
         }
 
         predicted_category = {
-            category: 0.0
+            category:
+                0.0
             for category
             in CATEGORY_ORDER
         }
@@ -820,6 +779,196 @@ def build_category_composition(
 
 
 # ======================================================================
+# Figure 5 composition export
+# ======================================================================
+
+
+def build_figure5_composition_export(
+    category_composition: pd.DataFrame,
+) -> pd.DataFrame:
+    """
+    Convert category abundance fractions into the exact format expected
+    by plot_figure5_external_validation.py.
+
+    Output columns:
+        NP
+        Original_ID
+        Category
+        Predicted_percent
+        Observed_percent
+    """
+
+    required_columns = {
+        "NP_ID",
+        "Category",
+        "Observed",
+        "Predicted",
+    }
+
+    missing_columns = (
+        required_columns
+        - set(
+            category_composition.columns
+        )
+    )
+
+    if missing_columns:
+
+        raise ValueError(
+            "Category composition table is missing required column(s): "
+            f"{sorted(missing_columns)}"
+        )
+
+    figure5 = (
+        category_composition.copy()
+    )
+
+    # Preserve the external-data ordering.
+    original_np_order = list(
+        dict.fromkeys(
+            figure5[
+                "NP_ID"
+            ].astype(
+                str
+            )
+        )
+    )
+
+    display_map = {
+        original_id:
+            f"NP{index + 1:02d}"
+        for index, original_id in enumerate(
+            original_np_order
+        )
+    }
+
+    figure5[
+        "Original_ID"
+    ] = (
+        figure5[
+            "NP_ID"
+        ].astype(
+            str
+        )
+    )
+
+    figure5[
+        "NP"
+    ] = (
+        figure5[
+            "Original_ID"
+        ].map(
+            display_map
+        )
+    )
+
+    figure5[
+        "Predicted_percent"
+    ] = (
+        pd.to_numeric(
+            figure5[
+                "Predicted"
+            ],
+            errors="coerce",
+        )
+        * 100.0
+    )
+
+    figure5[
+        "Observed_percent"
+    ] = (
+        pd.to_numeric(
+            figure5[
+                "Observed"
+            ],
+            errors="coerce",
+        )
+        * 100.0
+    )
+
+    figure5 = (
+        figure5[
+            [
+                "NP",
+                "Original_ID",
+                "Category",
+                "Predicted_percent",
+                "Observed_percent",
+            ]
+        ]
+        .copy()
+    )
+
+    if (
+        figure5[
+            [
+                "Predicted_percent",
+                "Observed_percent",
+            ]
+        ]
+        .isna()
+        .any()
+        .any()
+    ):
+
+        raise ValueError(
+            "NaN found while preparing Figure 5 composition percentages."
+        )
+
+    return figure5
+
+
+def validate_figure5_composition(
+    figure5_composition: pd.DataFrame,
+    tolerance: float = 1e-6,
+) -> pd.DataFrame:
+    """
+    Confirm that predicted and observed category percentages sum to
+    approximately 100% for each external NP.
+    """
+
+    composition_check = (
+        figure5_composition
+        .groupby(
+            "NP",
+            sort=False,
+        )[
+            [
+                "Predicted_percent",
+                "Observed_percent",
+            ]
+        ]
+        .sum()
+    )
+
+    for column in [
+        "Predicted_percent",
+        "Observed_percent",
+    ]:
+
+        if not np.allclose(
+            composition_check[
+                column
+            ].to_numpy(
+                dtype=float
+            ),
+            100.0,
+            atol=tolerance,
+            rtol=0.0,
+        ):
+
+            raise ValueError(
+                "Figure 5 composition sanity check failed for "
+                f"{column}. Category percentages do not sum "
+                "to 100% for every NP."
+            )
+
+    return (
+        composition_check
+    )
+
+
+# ======================================================================
 # Save full prediction matrices
 # ======================================================================
 
@@ -831,7 +980,7 @@ def save_prediction_matrices(
     abundance_prediction: np.ndarray,
 ) -> None:
     """
-    Save complete model prediction matrices.
+    Save complete external model prediction matrices.
     """
 
     presence_df = pd.DataFrame(
@@ -906,7 +1055,9 @@ def main() -> None:
     # Device
     # ------------------------------------------------------------------
 
-    device = get_device()
+    device = (
+        get_device()
+    )
 
     print()
 
@@ -941,7 +1092,9 @@ def main() -> None:
 
     print(
         "Checkpoint panel:",
-        len(panel),
+        len(
+            panel
+        ),
         "proteins",
     )
 
@@ -970,7 +1123,7 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # Verify preprocessing
+    # Verify preprocessing against saved checkpoint
     # ------------------------------------------------------------------
 
     if (
@@ -1080,8 +1233,10 @@ def main() -> None:
     (
         id_to_name,
         id_to_category,
-    ) = metadata_to_mappings(
-        metadata
+    ) = (
+        metadata_to_mappings(
+            metadata
+        )
     )
 
     # ------------------------------------------------------------------
@@ -1139,7 +1294,7 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # Load model
+    # Load frozen gated model
     # ------------------------------------------------------------------
 
     model = (
@@ -1162,10 +1317,12 @@ def main() -> None:
     (
         presence_probability,
         abundance_prediction,
-    ) = predict_probabilities(
-        model,
-        X_external,
-        device=device,
+    ) = (
+        predict_probabilities(
+            model,
+            X_external,
+            device=device,
+        )
     )
 
     print(
@@ -1303,7 +1460,7 @@ def main() -> None:
     )
 
     # ==================================================================
-    # Save results
+    # Save general results
     # ==================================================================
 
     targets.overlap_table.to_csv(
@@ -1330,6 +1487,67 @@ def main() -> None:
         index=False,
     )
 
+    # ==================================================================
+    # Figure 5 composition export
+    # ==================================================================
+
+    figure5_composition = (
+        build_figure5_composition_export(
+            category_composition
+        )
+    )
+
+    composition_check = (
+        validate_figure5_composition(
+            figure5_composition
+        )
+    )
+
+    figure5_file = (
+        RESULTS_DIR
+        / "external_validation_predicted_observed_percentages.csv"
+    )
+
+    figure5_composition.to_csv(
+        figure5_file,
+        index=False,
+    )
+
+    print()
+
+    print(
+        "=" * 72
+    )
+
+    print(
+        "FIGURE 5 COMPOSITION CHECK"
+    )
+
+    print(
+        "=" * 72
+    )
+
+    print(
+        composition_check.to_string(
+            float_format=lambda value:
+                f"{value:.2f}",
+        )
+    )
+
+    print()
+
+    print(
+        "Figure 5 composition data saved:"
+    )
+
+    print(
+        figure5_file
+    )
+
+    # ------------------------------------------------------------------
+    # Full prediction matrices
+    # ------------------------------------------------------------------
+
     save_prediction_matrices(
         validation_df,
         output_columns,
@@ -1338,7 +1556,7 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # Save summary JSON
+    # Summary JSON
     # ------------------------------------------------------------------
 
     summary = {
@@ -1397,6 +1615,11 @@ def main() -> None:
                     "Cosine"
                 ]
             ),
+
+        "figure5_composition_file":
+            str(
+                figure5_file
+            ),
     }
 
     with open(
@@ -1438,6 +1661,16 @@ def main() -> None:
 
     print(
         RESULTS_DIR
+    )
+
+    print()
+
+    print(
+        "Figure 5 data:"
+    )
+
+    print(
+        figure5_file
     )
 
 
