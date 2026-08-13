@@ -277,5 +277,6 @@ Citation information will be added following publication of the manuscript.
 ## Contact
 
 Wei-Chun Chou  
+Email: weichun.chou@ucr.edu
 Department of Environmental Sciences  
 University of California, Riverside
