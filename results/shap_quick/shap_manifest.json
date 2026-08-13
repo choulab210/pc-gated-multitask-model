@@ -1,0 +1,15 @@
+{
+    "random_seed": 42,
+    "quick_mode": true,
+    "background_samples": 20,
+    "explained_test_samples": 8,
+    "development_samples": 317,
+    "total_test_samples": 80,
+    "encoded_features": 55,
+    "original_features": 12,
+    "model_outputs": 175,
+    "individual_proteins": 174,
+    "shap_output": "adsorption probability",
+    "relative_shap_definition": "mean absolute SHAP divided by global maximum, multiplied by 100",
+    "relative_shap_axis_label": "Relative mean |SHAP| (% of maximum)"
+}

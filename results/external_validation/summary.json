@@ -1,0 +1,11 @@
+{
+    "n_external_samples": 8,
+    "model_panel_size": 174,
+    "model_output_size": 175,
+    "overlap_proteins": 124,
+    "all_zero_proteins": 50,
+    "missing_proteins": 0,
+    "F1": 0.7164234958589798,
+    "Cosine": 0.7643875753494644,
+    "figure5_composition_file": "C:\\Users\\chouw\\Documents\\VS Code\\protein-corona-model\\results\\external_validation\\external_validation_predicted_observed_percentages.csv"
+}

@@ -31,3 +31,7 @@ Thumbs.db
 
 # Temporary results
 results/tmp/
+
+# High-resolution manuscript figure outputs
+figures/**/*.tif
+figures/**/*.tiff

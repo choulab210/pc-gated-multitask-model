@@ -1,0 +1,11 @@
+Protein Category,N,Median_r,1-TVD,Cosine
+Overall,174,0.6,0.623,0.758
+Apolipoproteins,15,0.549,0.688,0.829
+Coagulation/Fibrinogen,19,0.622,0.689,0.808
+Complement System,25,0.546,0.606,0.761
+Cytoskeletal,22,0.793,0.689,0.81
+Immunoglobulins,24,0.615,0.753,0.884
+Metabolic Enzymes,6,0.291,0.731,0.833
+Protease/Inhibitors,15,0.569,0.627,0.786
+Transport/Binding,28,0.609,0.663,0.817
+Other/Mixed,20,0.6,0.57,0.709

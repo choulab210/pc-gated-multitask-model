@@ -1,0 +1,12 @@
+{
+    "random_state": 42,
+    "rf_n_estimators": 500,
+    "rf_max_depth": null,
+    "logistic_C": 1.0,
+    "ridge_alpha": 1.0,
+    "xgb_n_estimators": 300,
+    "xgb_max_depth": 4,
+    "xgb_learning_rate": 0.05,
+    "xgb_subsample": 0.8,
+    "xgb_colsample_bytree": 0.8
+}

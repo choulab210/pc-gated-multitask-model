@@ -1,0 +1,31 @@
+rank,accession,protein_name,category,mean_abs_shap
+1,P07996,Thrombospondin-1,Transport/Binding,0.061376123722892674
+2,O14791,Apolipoprotein L1,Apolipoproteins,0.06046501325883911
+3,P05546,Heparin cofactor 2,Coagulation/Fibrinogen,0.05841966306156665
+4,Q9Y490,Talin-1,Cytoskeletal,0.058240863561392554
+5,P02788,Lactotransferrin,Transport/Binding,0.057677689850584746
+6,P03951,Coagulation factor XI,Coagulation/Fibrinogen,0.05646426076656136
+7,P02775,Platelet basic protein,Coagulation/Fibrinogen,0.055119951547681005
+8,P15169,Carboxypeptidase N catalytic chain,Protease/Inhibitors,0.05510644327315361
+9,P49908,Selenoprotein P,Transport/Binding,0.05399349099578912
+10,P18428,Lipopolysaccharide-binding protein,Transport/Binding,0.05394425359055882
+11,P02655,Apolipoprotein C-II,Apolipoproteins,0.053843846314581854
+12,P03952,Plasma kallikrein,Protease/Inhibitors,0.0537373145831225
+13,P05155,Plasma protease C1 inhibitor,Complement System,0.053726179986597344
+14,P02776,Platelet factor 4,Coagulation/Fibrinogen,0.05370990754015819
+15,P02748,Complement component C9,Complement System,0.05322361784723298
+16,P02790,Hemopexin,Transport/Binding,0.05273454461393057
+17,P13671,Complement component C6,Complement System,0.052510496746880464
+18,P00747,Plasminogen,Protease/Inhibitors,0.05250811534941832
+19,Q6Q788,Apolipoprotein A-V,Apolipoproteins,0.052200599066904364
+20,Q13103,Secreted phosphoprotein 24,Other/Mixed,0.051967189251586714
+21,P18065,Insulin-like growth factor-binding protein 2,Transport/Binding,0.051885545754437996
+22,P00739,Haptoglobin-related protein,Transport/Binding,0.05167853203587988
+23,P00748,Coagulation factor XII,Coagulation/Fibrinogen,0.051276446505580185
+24,P09871,Complement C1s subcomponent,Complement System,0.051239410294839326
+25,P12259,Coagulation factor V,Coagulation/Fibrinogen,0.05122979840445572
+26,P08697,Alpha-2-antiplasmin,Coagulation/Fibrinogen,0.051085135085737775
+27,Q9BXR6,Complement factor H-related protein 5,Complement System,0.05098857351721714
+28,P04217,Alpha-1B-glycoprotein,Transport/Binding,0.050376069046809684
+29,P17936,Insulin-like growth factor-binding protein 3,Transport/Binding,0.050351996416870964
+30,P02787,Serotransferrin,Transport/Binding,0.05025398390134797

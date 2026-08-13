@@ -1,0 +1,8 @@
+{
+    "n_samples": 317,
+    "n_unique_groups": 249,
+    "n_repeated_groups": 29,
+    "n_samples_in_repeated_groups": 97,
+    "fraction_samples_in_repeated_groups": 0.305993690851735,
+    "largest_group": 11
+}

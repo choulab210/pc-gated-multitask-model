@@ -1,0 +1,7 @@
+{
+    "n_splits": 5,
+    "random_seed": 42,
+    "grouping": "identical raw feature signature",
+    "development_samples": 317,
+    "n_unique_groups": 249
+}

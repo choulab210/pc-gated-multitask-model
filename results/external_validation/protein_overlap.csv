@@ -1,0 +1,175 @@
+UniProt_ID,Protein_name,Status,Total_abundance_in_validation
+P02768,Albumin,overlap_detected,0.5247900985913068
+P01834,Immunoglobulin kappa constant,overlap_detected,0.1278281288855701
+P04004,Vitronectin,overlap_detected,0.1938802037825998
+P02647,Apolipoprotein A-I,overlap_detected,0.7326763381674153
+P02649,Apolipoprotein E,overlap_detected,0.37528935867936586
+P01008,Antithrombin-III,overlap_detected,0.0234455428528526
+P01857,Immunoglobulin heavy constant gamma 1,all_zero_in_validation,0.0
+P02656,Apolipoprotein C-III,overlap_detected,0.081905394441348
+P10909,Clusterin,overlap_detected,0.1438107142315409
+P00734,Prothrombin,overlap_detected,0.09532522129045941
+P02675,Fibrinogen beta chain,overlap_detected,0.0252713376847267
+P04196,Histidine-rich glycoprotein,overlap_detected,0.8025075796496985
+P02679,Fibrinogen gamma chain,overlap_detected,0.041097067789690994
+P02652,Apolipoprotein A-II,overlap_detected,0.1716235572983563
+P01042,Kininogen-1,overlap_detected,0.168561783295808
+P01024,Complement C3,overlap_detected,0.11523890323129951
+P02671,Fibrinogen alpha chain,overlap_detected,0.017266515815625598
+P01871,Immunoglobulin heavy constant mu,overlap_detected,0.07161905404182331
+P01009,Alpha-1-antitrypsin,overlap_detected,0.1138346743271749
+P04003,C4b-binding protein alpha chain,overlap_detected,0.06812365995967269
+P0DOY2,Immunoglobulin lambda constant 2,all_zero_in_validation,0.0
+P02655,Apolipoprotein C-II,overlap_detected,0.09685486124288939
+P02766,Transthyretin,overlap_detected,0.0034853880095642
+P19823,Inter-alpha-trypsin inhibitor heavy chain H2,overlap_detected,0.0025995331540744
+P0DOY3,Immunoglobulin lambda constant 3,overlap_detected,0.0543417410893275
+P01876,Immunoglobulin heavy constant alpha 1,all_zero_in_validation,0.0
+P35542,Serum amyloid A-4 protein,overlap_detected,0.0063324889693968005
+P01859,Immunoglobulin heavy constant gamma 2,overlap_detected,0.0125190900530514
+P06727,Apolipoprotein A-IV,overlap_detected,0.19104019606084152
+P68871,Hemoglobin subunit beta,overlap_detected,0.0007596971703547
+P0C0L5,Complement C4-B,overlap_detected,0.0175664882603198
+P02654,Apolipoprotein C-I,overlap_detected,0.1237497441215186
+Q14520,Factor VII-activating protease,overlap_detected,0.16277952328601158
+P02743,Serum amyloid P-component,overlap_detected,0.0010130253446634001
+P01619,Immunoglobulin kappa variable 3-20,overlap_detected,0.0012258399832615
+B9A064,Immunoglobulin lambda-like polypeptide 5,all_zero_in_validation,0.0
+P69905,Hemoglobin subunit alpha,overlap_detected,0.0011251718724816
+P19827,Inter-alpha-trypsin inhibitor heavy chain H1,overlap_detected,0.0448532687528082
+P04114,Apolipoprotein B-100,overlap_detected,0.2544136733931457
+P03951,Coagulation factor XI,overlap_detected,0.085355464597344
+P00742,Coagulation factor X,all_zero_in_validation,0.0
+P0C0L4,Complement C4-A,overlap_detected,0.0065048056488502
+P55056,Apolipoprotein C-IV,overlap_detected,0.0013566052209939
+P01860,Immunoglobulin heavy constant gamma 3,all_zero_in_validation,0.0
+P02776,Platelet factor 4,overlap_detected,0.0416116337172839
+P02787,Serotransferrin,overlap_detected,0.0125440580409921
+P02749,Beta-2-glycoprotein 1,overlap_detected,0.0232993203180711
+Q14624,Inter-alpha-trypsin inhibitor heavy chain H4,overlap_detected,0.0558261300830905
+P07225,Vitamin K-dependent protein S,all_zero_in_validation,0.0
+P02760,Protein AMBP,overlap_detected,0.085485329355908
+P0DOX7,Immunoglobulin kappa light chain,all_zero_in_validation,0.0
+P0DJI8,Serum amyloid A-1 protein,overlap_detected,0.0444562401726476
+P04264,"Keratin, type II cytoskeletal 1",overlap_detected,0.0022861613117335002
+P27169,Serum paraoxonase/arylesterase 1,overlap_detected,0.0076291359398546
+P03952,Plasma kallikrein,overlap_detected,0.058284729685078994
+P05154,Plasma serine protease inhibitor,overlap_detected,0.0024328916122445
+P00747,Plasminogen,overlap_detected,0.2720155779556482
+P01861,Immunoglobulin heavy constant gamma 4,all_zero_in_validation,0.0
+P00738,Haptoglobin,overlap_detected,0.0328836194813262
+P02746,Complement C1q subcomponent subunit B,all_zero_in_validation,0.0
+P01764,Immunoglobulin heavy variable 3-23,overlap_detected,0.0001175091228576111
+P00739,Haptoglobin-related protein,overlap_detected,0.023755454973919003
+P60709,"Actin, cytoplasmic 1",all_zero_in_validation,0.0
+P06396,Gelsolin,overlap_detected,0.0086830231721519
+P10720,Platelet factor 4 variant,overlap_detected,3.3681069616076316e-05
+P02788,Lactotransferrin,overlap_detected,0.0018180040809907998
+P13645,"Keratin, type I cytoskeletal 10",overlap_detected,0.005395801531912
+P06702,Protein S100-A9,overlap_detected,0.0010394901398692
+P02747,Complement C1q subcomponent subunit C,overlap_detected,0.029536975989264698
+P00740,Coagulation factor IX,all_zero_in_validation,0.0
+P01023,Alpha-2-macroglobulin,overlap_detected,0.0160397760436211
+P01766,Immunoglobulin heavy variable 3-13,all_zero_in_validation,0.0
+P08603,Complement factor H,overlap_detected,0.0141195581649618
+P01593,Immunoglobulin kappa variable 1D-33,all_zero_in_validation,0.0
+P02775,Platelet basic protein,overlap_detected,0.0010185329288431
+P07737,Profilin-1,all_zero_in_validation,0.0
+P06312,Immunoglobulin kappa variable 4-1,all_zero_in_validation,0.0
+P04070,Vitamin K-dependent protein C,all_zero_in_validation,0.0
+P05090,Apolipoprotein D,overlap_detected,0.0574090442721491
+O14791,Apolipoprotein L1,overlap_detected,0.0049152244532290005
+P05155,Plasma protease C1 inhibitor,overlap_detected,0.0076474158820187
+P02765,Alpha-2-HS-glycoprotein,overlap_detected,0.0033829553403977998
+P24844,Myosin regulatory light polypeptide 9,overlap_detected,0.0009031913737834001
+P35908,"Keratin, type II cytoskeletal 2 epidermal",overlap_detected,0.0120889095893277
+P08697,Alpha-2-antiplasmin,overlap_detected,0.0035667898161964
+Q06033,Inter-alpha-trypsin inhibitor heavy chain H3,all_zero_in_validation,0.0
+P05546,Heparin cofactor 2,overlap_detected,0.0029069794704773997
+P02748,Complement component C9,overlap_detected,0.0002638869464976181
+P22891,Vitamin K-dependent protein Z,all_zero_in_validation,0.0
+P04433,Immunoglobulin kappa variable 3-11,overlap_detected,0.0027253398184927
+Q03591,Complement factor H-related protein 1,overlap_detected,0.0065016550247066
+O43866,CD5 antigen-like,overlap_detected,0.0016105948491463
+P35527,"Keratin, type I cytoskeletal 9",overlap_detected,0.0003363584948139232
+Q92954,Proteoglycan 4,overlap_detected,0.0084807866998423
+P02790,Hemopexin,overlap_detected,0.004352777775364
+P00748,Coagulation factor XII,overlap_detected,0.0679087155917167
+P81605,Dermcidin,all_zero_in_validation,0.0
+P00751,Complement factor B,overlap_detected,0.0028749305143465002
+P02745,Complement C1q subcomponent subunit A,overlap_detected,0.0045748477752424
+P18065,Insulin-like growth factor-binding protein 2,all_zero_in_validation,0.0
+P01615,Immunoglobulin kappa variable 2D-28,all_zero_in_validation,0.0
+P49908,Selenoprotein P,overlap_detected,0.0873171499125173
+Q13790,Apolipoprotein F,all_zero_in_validation,0.0
+P02774,Vitamin D-binding protein,overlap_detected,0.0111117693226543
+P12259,Coagulation factor V,overlap_detected,0.0036300947684179997
+Q13103,Secreted phosphoprotein 24,all_zero_in_validation,0.0
+P15169,Carboxypeptidase N catalytic chain,overlap_detected,0.0097663223729739
+P20851,C4b-binding protein beta chain,all_zero_in_validation,0.0
+P07358,Complement component C8 beta chain,overlap_detected,0.0302376724285006
+P01011,Alpha-1-antichymotrypsin,overlap_detected,0.0005551803112257
+P02751,Fibronectin,overlap_detected,0.0321987779283088
+P07996,Thrombospondin-1,overlap_detected,0.0036737375640485
+P02763,Alpha-1-acid glycoprotein 1,overlap_detected,0.001561657511543
+P09871,Complement C1s subcomponent,overlap_detected,0.0049895619485196
+O75636,Ficolin-3,all_zero_in_validation,0.0
+P01591,Immunoglobulin J chain,overlap_detected,0.0005411249367569
+P00736,Complement C1r subcomponent,overlap_detected,0.00022688328099492548
+P07360,Complement component C8 gamma chain,overlap_detected,0.0005133347102106182
+P02741,C-reactive protein,overlap_detected,0.0007909682498560741
+Q9UK55,Protein Z-dependent protease inhibitor,overlap_detected,0.00013749361732239828
+P18428,Lipopolysaccharide-binding protein,overlap_detected,0.035553112449658
+Q5TB80,Centrosomal protein of 162 kDa,all_zero_in_validation,0.0
+O95445,Apolipoprotein M,overlap_detected,0.0318047697999059
+P17936,Insulin-like growth factor-binding protein 3,overlap_detected,0.0014782979812918
+P08727,"Keratin, type I cytoskeletal 19",all_zero_in_validation,0.0
+P00746,Complement factor D,overlap_detected,0.0007420849385042
+P67936,Tropomyosin alpha-4 chain,all_zero_in_validation,0.0
+P04406,Glyceraldehyde-3-phosphate dehydrogenase,overlap_detected,0.0017242510518036
+P01700,Immunoglobulin lambda variable 1-47,all_zero_in_validation,0.0
+P05452,Tetranectin,overlap_detected,0.0011267893812789
+P61626,Lysozyme C,overlap_detected,0.0006748351909108515
+P62805,Histone H4,overlap_detected,8.549598514886387e-05
+P27918,Properdin,all_zero_in_validation,0.0
+P01031,Complement C5,all_zero_in_validation,0.0
+Q9Y490,Talin-1,overlap_detected,0.002460734743298
+P61224,Ras-related protein Rap-1b,all_zero_in_validation,0.0
+P13671,Complement component C6,all_zero_in_validation,0.0
+P80748,Immunoglobulin lambda variable 3-21,all_zero_in_validation,0.0
+P09211,Glutathione S-transferase P,overlap_detected,0.00037399500202060223
+P01599,Immunoglobulin kappa variable 1-17,all_zero_in_validation,0.0
+P07355,Annexin A2,overlap_detected,8.383468720555571e-05
+P01877,Immunoglobulin heavy constant alpha 2,all_zero_in_validation,0.0
+P08514,Integrin alpha-IIb,all_zero_in_validation,0.0
+Q9BXR6,Complement factor H-related protein 5,overlap_detected,0.0092952772778816
+P63104,14-3-3 protein zeta/delta,overlap_detected,4.1822668300393954e-05
+P04217,Alpha-1B-glycoprotein,overlap_detected,0.0213805221291936
+P01019,Angiotensinogen,overlap_detected,0.0015157512417957
+P36955,Pigment epithelium-derived factor,overlap_detected,0.0013832365784021
+P35858,Insulin-like growth factor-binding protein complex acid labile subunit,overlap_detected,0.0025462474745673
+P05109,Protein S100-A8,overlap_detected,0.0015476347345759
+Q6Q788,Apolipoprotein A-V,overlap_detected,0.0033974018210359
+P35442,Thrombospondin-2,overlap_detected,0.00026481227077158876
+P02730,Band 3 anion transport protein,all_zero_in_validation,0.0
+P35579,Myosin-9,overlap_detected,0.0008040431520551
+P60660,Myosin light polypeptide 6,all_zero_in_validation,0.0
+P08709,Coagulation factor VII,all_zero_in_validation,0.0
+P63261,"Actin, cytoplasmic 2",overlap_detected,0.004344800946292301
+P23528,Cofilin-1,overlap_detected,0.0007352259365536
+Q96IY4,Carboxypeptidase B2,overlap_detected,0.001283552375828
+P49747,Cartilage oligomeric matrix protein,all_zero_in_validation,0.0
+P27105,Stomatin,all_zero_in_validation,0.0
+P07357,Complement component C8 alpha chain,all_zero_in_validation,0.0
+P01880,Immunoglobulin heavy constant delta,all_zero_in_validation,0.0
+P06733,Alpha-enolase,overlap_detected,0.0030835163951524
+P19652,Alpha-1-acid glycoprotein 2,overlap_detected,0.0033394092135028003
+P62937,Peptidyl-prolyl cis-trans isomerase A,overlap_detected,0.0005794489264939
+P02533,"Keratin, type I cytoskeletal 14",overlap_detected,0.0002772247223314345
+P05106,Integrin beta-3,all_zero_in_validation,0.0
+P18206,Vinculin,all_zero_in_validation,0.0
+P08519,Apolipoprotein(a),overlap_detected,0.0014507164349237
+P26038,Moesin,overlap_detected,0.0253356625983739
+P48740,Mannan-binding lectin serine protease 1,all_zero_in_validation,0.0
+P51884,Lumican,all_zero_in_validation,0.0
+P10643,Complement component C7,all_zero_in_validation,0.0

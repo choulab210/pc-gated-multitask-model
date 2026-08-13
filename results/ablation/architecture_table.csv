@@ -1,0 +1,4 @@
+Variant,Model,Shared_encoder,Adsorption_head,Abundance_head,Multitask_training,Adsorption_guided_gating
+A,Abundance-only,True,False,True,False,False
+B,Two-head without gating,True,True,True,True,False
+C,Two-head with gating,True,True,True,True,True

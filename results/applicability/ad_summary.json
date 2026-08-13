@@ -1,0 +1,14 @@
+{
+    "n_reference_samples": 317,
+    "n_features": 55,
+    "n_neighbors": 5,
+    "threshold_percentile": 85.0,
+    "threshold": 1.9666371547518167,
+    "training_distance_mean": 0.9633252394203946,
+    "training_distance_median": 0.8583684691024643,
+    "training_distance_min": 0.0,
+    "training_distance_max": 3.4316335615121267,
+    "n_test_samples": 80,
+    "n_in_ad": 62,
+    "n_out_of_ad": 18
+}

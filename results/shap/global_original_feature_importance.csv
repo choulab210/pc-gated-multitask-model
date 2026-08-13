@@ -1,0 +1,13 @@
+feature,mean_abs_shap,relative_mean_abs_shap,feature_group
+np_subtype,0.08990675339174059,100.0,NP Physicochemical Properties
+zp_solvent,0.060386092167769426,67.16524609075348,Experimental Conditions
+hd_solvent,0.05083494517074133,56.54185392419181,Experimental Conditions
+mod_type,0.044761209148794855,49.786259051933364,NP Physicochemical Properties
+mod_charge,0.040587237104398696,45.14370230626891,NP Physicochemical Properties
+np_type,0.037933411586714934,42.19194905351764,NP Physicochemical Properties
+zp_charge,0.03789435366985607,42.14850635829687,NP Physicochemical Properties
+incub_time,0.03430259828661727,38.15352795262711,Experimental Conditions
+zp_mv,0.03272324280372389,36.39686849901318,NP Physicochemical Properties
+agitation,0.029304738927314535,32.594591420322224,Experimental Conditions
+washing_steps,0.0271142087836947,30.15814470082465,Experimental Conditions
+size_nm,0.02313922800737883,25.736918679019443,NP Physicochemical Properties

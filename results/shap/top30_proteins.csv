@@ -1,0 +1,31 @@
+rank,accession,protein_name,category,mean_abs_shap
+1,P03952,Plasma kallikrein,Protease/Inhibitors,0.058283855761695556
+2,P05546,Heparin cofactor 2,Coagulation/Fibrinogen,0.057895626301571364
+3,P49908,Selenoprotein P,Transport/Binding,0.0577892577814866
+4,O14791,Apolipoprotein L1,Apolipoproteins,0.057057864784517465
+5,P07996,Thrombospondin-1,Transport/Binding,0.056509506099840075
+6,P03951,Coagulation factor XI,Coagulation/Fibrinogen,0.05643472399176914
+7,P02788,Lactotransferrin,Transport/Binding,0.05591099444732519
+8,Q9Y490,Talin-1,Cytoskeletal,0.05562380923557794
+9,P12259,Coagulation factor V,Coagulation/Fibrinogen,0.05550138405735283
+10,P15169,Carboxypeptidase N catalytic chain,Protease/Inhibitors,0.055499057569076304
+11,P00747,Plasminogen,Protease/Inhibitors,0.05462698707960089
+12,P13671,Complement component C6,Complement System,0.05392651810035689
+13,Q92954,Proteoglycan 4,Other/Mixed,0.05347635541855381
+14,P00748,Coagulation factor XII,Coagulation/Fibrinogen,0.05314633941164648
+15,P02790,Hemopexin,Transport/Binding,0.05310849605523616
+16,P02655,Apolipoprotein C-II,Apolipoproteins,0.05293207481169126
+17,P18428,Lipopolysaccharide-binding protein,Transport/Binding,0.052673665703590535
+18,P05154,Plasma serine protease inhibitor,Protease/Inhibitors,0.05266075768807447
+19,P02775,Platelet basic protein,Coagulation/Fibrinogen,0.05258044262244022
+20,P17936,Insulin-like growth factor-binding protein 3,Transport/Binding,0.05196779197123517
+21,P02748,Complement component C9,Complement System,0.05165883740133495
+22,P04217,Alpha-1B-glycoprotein,Transport/Binding,0.05161835130749159
+23,P08697,Alpha-2-antiplasmin,Coagulation/Fibrinogen,0.05153566022816606
+24,P19823,Inter-alpha-trypsin inhibitor heavy chain H2,Protease/Inhibitors,0.05128626297861972
+25,P05155,Plasma protease C1 inhibitor,Complement System,0.05094697840586704
+26,P69905,Hemoglobin subunit alpha,Other/Mixed,0.05072361641743229
+27,P02751,Fibronectin,Transport/Binding,0.05055191386828575
+28,P02776,Platelet factor 4,Coagulation/Fibrinogen,0.05047195464256129
+29,P02765,Alpha-2-HS-glycoprotein,Transport/Binding,0.05032705535484091
+30,Q9BXR6,Complement factor H-related protein 5,Complement System,0.050163003804675955

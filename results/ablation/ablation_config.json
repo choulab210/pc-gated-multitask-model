@@ -1,0 +1,22 @@
+{
+    "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+    ],
+    "variants": [
+        "abundance_only",
+        "two_head_no_gate",
+        "two_head_gated"
+    ],
+    "n_runs": 15,
+    "max_epochs": 100,
+    "patience": 10,
+    "dev_ratio": 0.15,
+    "batch_size": 64,
+    "learning_rate": 0.0019913470844860467,
+    "weight_presence": 1.0,
+    "weight_abundance": 1.9528320541332875
+}
